@@ -1,0 +1,32 @@
+.block-shipping-header {
+  color: white;
+  padding: 200px 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  .container{
+    position: relative;
+    z-index: 1;
+  }
+  .fc-subtitle{
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 300;
+    font-size: 21px;
+  }
+  .overlay{
+    background: rgb(29,29,29);
+    background: linear-gradient(131deg, rgba(29,29,29,1) 0%, rgba(123,123,123,0) 100%);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+/*body.fc-light {
+  .block-shipping-header {
+
+  }
+}*/

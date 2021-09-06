@@ -1,0 +1,78 @@
+$primary : #FF6B0B;
+$light-blue : #489BE8;
+$dark-black : #222222;
+$light-grey : #F4F4F4;
+$sarabun : 'Sarabun', sans-serif;
+
+body, html, figure{
+  margin: 0;
+  padding: 0;
+}
+
+.fc_block, .fc_site-header {
+
+  h1, h2, h3, h4, h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 70px;
+  }
+
+  h2 {
+    font-size: 50px;
+  }
+
+  h3 {
+    font-size: 40px;
+  }
+
+  h4 {
+    font-size: 24px;
+  }
+
+  h5 {
+    font-size: 18px;
+  }
+
+  input,
+  textarea {
+    &:focus {
+      outline: none;
+      border: none;
+    }
+  }
+
+  .btn-round {
+    padding: 10px 24px;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    transition: background-color .2s linear;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+
+    &.primary {
+      background: $primary;
+      color: #FFFFFF;
+
+      &:hover {
+        background-color: darken($primary, 10%);
+      }
+    }
+
+    &.secondary {
+      background: $light-blue;
+      color: white;
+
+      &:hover {
+        background-color: darken($light-blue, 10%);
+      }
+    }
+  }
+}

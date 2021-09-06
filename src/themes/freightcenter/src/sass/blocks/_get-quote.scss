@@ -1,0 +1,31 @@
+.block-get-quote {
+  background: $dark-black;
+  padding: 50px 0;
+  color: white;
+  form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    label{
+      font-size: 29px;
+      font-family: Arial, sans-serif;
+      margin-right: 10px;
+    }
+    input{
+      vertical-align: middle;
+      display: inline-block;
+      padding: 17px 22px;
+      border-radius: 25px;
+      border: none;
+      width: 380px;
+      max-width: 100%;
+      line-height: 1;
+    }
+  }
+}
+
+/*body.fc-light {
+  .block-get-quote {
+
+  }
+}*/

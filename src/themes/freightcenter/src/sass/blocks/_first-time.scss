@@ -1,0 +1,37 @@
+.block-first-time {
+  color: white;
+  .left-side{
+    background: #222222;
+  }
+  .right-side{
+    background: #414141;
+    ul{
+      padding-left: 20px;
+    }
+  }
+
+  .item{
+    min-height: 650px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    max-width: 590px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
+  .description{
+    font-family: $sarabun;
+    font-size: 18px;
+  }
+}
+
+body.fc-light {
+  .block-first-time {
+    .left-side{
+      background: #343A40;
+    }
+    .right-side{
+      background: #489BE8;
+    }
+  }
+}

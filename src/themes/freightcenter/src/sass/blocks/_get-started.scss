@@ -1,0 +1,18 @@
+.block-get-started {
+  text-align: center;
+  background: $dark-black;
+  padding: 70px 0;
+  color: white;
+  .description{
+    font-family: 'Sarabun', sans-serif;
+    font-size: 13px;
+    line-height: 16px;
+    margin: 10px 0 26px 0;
+  }
+}
+
+body.fc-light {
+  .block-get-started {
+    background: $light-blue;
+  }
+}

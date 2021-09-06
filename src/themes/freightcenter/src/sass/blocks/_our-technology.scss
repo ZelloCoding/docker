@@ -1,0 +1,49 @@
+.block-our-technology {
+  padding-top: 270px;
+  transition: background-color .2s linear;
+
+  .container{
+    max-width: 1030px;
+  }
+
+  .left-wrapper,
+  .right-wrapper {
+    height: 600px;
+    overflow: hidden;
+  }
+
+  .left-wrapper {
+    text-align: right;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .right-wrapper {
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    transition: color .2s linear;
+
+    h2 {
+      margin: 0 0 17px 0;
+    }
+
+    .description {
+      font-family: 'Sarabun', sans-serif;
+      font-size: 13px;
+      line-height: 16px;
+    }
+  }
+}
+
+body.fc-light {
+  .block-our-technology {
+    background-color: $light-blue;
+
+    .right-wrapper {
+      color: #FFFFFF;
+    }
+  }
+}
